@@ -39,16 +39,7 @@ To eliminate long waiting lines and improve service efficiency by providing a sm
 
 ---
 
-## 📸 Screenshots
 
-*Add your app screenshots here*
-
-```
-![Screenshot1](path/to/image1.png)
-![Screenshot2](path/to/image2.png)
-```
-
----
 
 ## ⚙️ Installation & Setup
 
