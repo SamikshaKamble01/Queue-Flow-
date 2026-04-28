@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.QueueFlowPro" parent="Theme.Material3.Dark.NoActionBar">
+
+        <item name="colorPrimary">@color/teal_accent</item>
+        <item name="colorPrimaryVariant">@color/teal_dim</item>
+        <item name="colorOnPrimary">@color/navy_deep</item>
+
+        <item name="colorSecondary">@color/gold_primary</item>
+        <item name="colorSecondaryVariant">@color/gold_dim</item>
+        <item name="colorOnSecondary">@color/navy_deep</item>
+
+        <item name="colorTertiary">@color/gold_primary</item>
+        <item name="colorOnTertiary">@color/navy_deep</item>
+
+        <item name="android:colorBackground">@color/navy_deep</item>
+        <item name="colorSurface">@color/navy_surface</item>
+        <item name="colorSurfaceVariant">@color/navy_card</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <item name="colorError">@color/status_error</item>
+        <item name="colorOnError">@color/text_primary</item>
+
+        <item name="colorOutline">@color/divider_color</item>
+
+        <item name="android:statusBarColor">@color/navy_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/navy_deep</item>
+
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <item name="android:colorControlActivated">@color/teal_accent</item>
+        <item name="android:colorControlHighlight">#1A00C9A7</item>
+
+        <item name="materialButtonStyle">@style/Widget.QueueFlowPro.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.QueueFlowPro.Card</item>
+        <item name="chipStyle">@style/Widget.QueueFlowPro.Chip</item>
+        <item name="textInputStyle">@style/Widget.QueueFlowPro.TextInput</item>
+
+        <item name="android:progressTint">@color/teal_accent</item>
+        <item name="android:indeterminateTint">@color/gold_primary</item>
+
+        <item name="rippleColor">#1A00C9A7</item>
+        <item name="android:colorControlNormal">@color/teal_accent</item>
+        <item name="switchStyle">@style/Widget.QueueFlowPro.Switch</item>
+
+    </style>
+
+    <style name="Theme.QueueFlowPro.Splash" parent="Theme.QueueFlowPro">
+        <item name="android:windowBackground">@color/navy_deep</item>
+        <item name="android:statusBarColor">@color/navy_deep</item>
+        <item name="android:navigationBarColor">@color/navy_deep</item>
+    </style>
+
+</resources>

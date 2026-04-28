@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:letterSpacing="0.1"
+        android:text="ADMIN • SCANNER"
+        android:textColor="@color/gold_primary"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Scan Token QR"
+        android:textColor="@color/text_primary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_divider_gold" />
+
+    <!-- Scanner Viewfinder Mockup -->
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bg_scanner_frame"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▣"
+            android:textColor="@color/gold_primary"
+            android:textSize="80sp" />
+    </LinearLayout>
+
+    <!-- Info Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bg_card_elevated"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="Scan the user token at the counter to mark attendance complete."
+            android:textAlignment="center"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button_start_scan"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_primary"
+            android:letterSpacing="0.08"
+            android:text="START QR SCAN"
+            android:textColor="@color/navy_deep"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/divider_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:letterSpacing="0.06"
+            android:text="LAST SCAN"
+            android:textColor="@color/text_hint"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/text_scan_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="None"
+            android:textColor="@color/teal_accent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "839156984714",
+    "project_id": "queue-management-a103c",
+    "storage_bucket": "queue-management-a103c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839156984714:android:aaf636437140f55d8ab673",
+        "android_client_info": {
+          "package_name": "com.example.queuemanagementsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWoT82rHLCN5W8AQheGHfdjjKsZ6UDbEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

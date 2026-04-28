@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_card_soft"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="18dp">
+
+    <!-- Token Number + Queue # -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_pending_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A-21"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_pending_queue_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Queue #21"
+            android:textColor="@color/text_hint"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Status Chip -->
+    <TextView
+        android:id="@+id/text_pending_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_chip_warning"
+        android:paddingLeft="14dp"
+        android:paddingTop="7dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="7dp"
+        android:text="WAITING"
+        android:textColor="@color/brand_warning"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- =========================================== -->
+    <!--   QUEUEFLOW PRO — DESIGN SYSTEM COLORS      -->
+    <!--   Theme: Deep Navy × Teal × Gold            -->
+    <!-- =========================================== -->
+
+    <!-- Brand: Deep Navy -->
+    <color name="navy_deep">#0D1B2A</color>
+    <color name="navy_medium">#1A2E44</color>
+    <color name="navy_surface">#1E3448</color>
+    <color name="navy_card">#22385A</color>
+    <color name="navy_elevated">#243D60</color>
+
+    <!-- Brand: Teal Accent -->
+    <color name="teal_accent">#00C9A7</color>
+    <color name="teal_light">#1ADBB9</color>
+    <color name="teal_dim">#0A8F7A</color>
+
+    <!-- Brand: Gold -->
+    <color name="gold_primary">#F5C842</color>
+    <color name="gold_light">#F7D46A</color>
+    <color name="gold_dim">#C9A02A</color>
+
+    <!-- Legacy brand aliases (used in existing code) -->
+    <color name="brand_primary">#00C9A7</color>
+    <color name="brand_secondary">#00C9A7</color>
+    <color name="brand_warning">#F5A623</color>
+
+    <!-- Surface / Card Backgrounds -->
+    <color name="surface_card">#1A2E44</color>
+    <color name="surface_elevated">#22385A</color>
+    <color name="surface_subtle">#162539</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#A8BDD4</color>
+    <color name="text_hint">#6B849E</color>
+    <color name="text_on_gold">#0D1B2A</color>
+
+    <!-- Status -->
+    <color name="status_success">#2ECC71</color>
+    <color name="status_success_bg">#0D3D24</color>
+    <color name="status_warning">#F5A623</color>
+    <color name="status_warning_bg">#3A2A0A</color>
+    <color name="status_error">#E74C3C</color>
+    <color name="status_error_bg">#3D0D0D</color>
+    <color name="status_info">#3498DB</color>
+    <color name="status_info_bg">#0D2640</color>
+
+    <!-- Dividers & Strokes -->
+    <color name="divider_color">#2A4060</color>
+    <color name="card_stroke">#2A4060</color>
+    <color name="input_border">#2A4060</color>
+    <color name="input_border_focused">#00C9A7</color>
+
+    <!-- Switch -->
+    <color name="switch_thumb_off">#4A6080</color>
+    <color name="switch_track_off">#2A3D55</color>
+    <color name="switch_track_selector">#00C9A7</color>
+
+</resources>

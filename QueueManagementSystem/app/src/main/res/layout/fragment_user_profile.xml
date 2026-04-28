@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:letterSpacing="0.1"
+            android:text="ACCOUNT"
+            android:textColor="@color/gold_primary"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/text_profile_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Profile &amp; Settings"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Profile Details Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_card_elevated"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.08"
+                android:text="PERSONAL INFO"
+                android:textColor="@color/text_hint"
+                android:textSize="11sp" />
+
+            <View
+                android:layout_width="32dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gold_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:letterSpacing="0.06"
+                android:text="FULL NAME"
+                android:textColor="@color/text_hint"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/input_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_input_field"
+                android:hint="Your full name"
+                android:minHeight="56dp"
+                android:padding="16dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:letterSpacing="0.06"
+                android:text="PHONE"
+                android:textColor="@color/text_hint"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/input_profile_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_input_field"
+                android:hint="+91 00000 00000"
+                android:minHeight="56dp"
+                android:padding="16dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:textSize="15sp" />
+
+            <!-- Email & Role Read-only -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_readonly_field"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.06"
+                        android:text="EMAIL"
+                        android:textColor="@color/text_hint"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/text_profile_email_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/text_primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_readonly_field"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.06"
+                        android:text="ROLE"
+                        android:textColor="@color/text_hint"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/text_profile_role_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/gold_primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Preferences Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card_elevated"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.08"
+                android:text="PREFERENCES"
+                android:textColor="@color/text_hint"
+                android:textSize="11sp" />
+
+            <View
+                android:layout_width="32dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gold_primary" />
+
+            <Switch
+                android:id="@+id/switch_profile_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Enable push notifications"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:thumbTint="@color/gold_primary"
+                android:trackTint="@color/switch_track_selector" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/divider_color" />
+
+            <Switch
+                android:id="@+id/switch_profile_dark_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Dark mode"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:thumbTint="@color/gold_primary"
+                android:trackTint="@color/switch_track_selector" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/divider_color" />
+
+            <Switch
+                android:id="@+id/switch_profile_large_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Large text mode"
+                android:textColor="@color/text_primary"
+                android:textSize="15sp"
+                android:thumbTint="@color/gold_primary"
+                android:trackTint="@color/switch_track_selector" />
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <Button
+            android:id="@+id/button_save_profile"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_primary"
+            android:letterSpacing="0.08"
+            android:text="SAVE PROFILE"
+            android:textColor="@color/navy_deep"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_sync_push_token"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_teal"
+            android:letterSpacing="0.06"
+            android:text="SYNC PUSH TOKEN"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_open_history_profile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_outline"
+            android:letterSpacing="0.06"
+            android:text="OPEN TOKEN HISTORY"
+            android:textColor="@color/gold_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <View android:layout_width="0dp" android:layout_height="24dp" />
+
+    </LinearLayout>
+</ScrollView>

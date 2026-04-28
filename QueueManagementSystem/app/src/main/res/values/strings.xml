@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">QueueFlow Pro</string>
+    <string name="app_tagline">Smart queueing for hospitals, offices, and public service desks</string>
+    <string name="app_loading">LOADING…</string>
+
+    <!-- Splash -->
+    <string name="splash_logo_letter">Q</string>
+
+    <!-- Login -->
+    <string name="login_eyebrow">QUEUEFLOW PRO</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Login to book tokens or manage the live queue.</string>
+    <string name="login_label_email">EMAIL ADDRESS</string>
+    <string name="login_hint_email">you@example.com</string>
+    <string name="login_label_password">PASSWORD</string>
+    <string name="login_hint_password">••••••••</string>
+    <string name="login_button">SIGN IN</string>
+    <string name="login_create_account">Create a new account →</string>
+
+    <!-- Register -->
+    <string name="register_eyebrow">GET STARTED</string>
+    <string name="register_title">Create account</string>
+    <string name="register_label_name">FULL NAME</string>
+    <string name="register_hint_name">Your full name</string>
+    <string name="register_label_phone">PHONE NUMBER</string>
+    <string name="register_hint_phone">+91 00000 00000</string>
+    <string name="register_label_email">EMAIL ADDRESS</string>
+    <string name="register_label_password">PASSWORD</string>
+    <string name="register_label_role">ACCOUNT TYPE</string>
+    <string name="register_role_user">User</string>
+    <string name="register_role_admin">Admin</string>
+    <string name="register_button">CREATE ACCOUNT</string>
+
+    <!-- Service List -->
+    <string name="service_eyebrow">SMART QUEUE</string>
+    <string name="service_title">Book a smarter visit</string>
+    <string name="service_subtitle">Choose a service, grab your token, and track the queue live.</string>
+    <string name="service_btn_token">My Token</string>
+    <string name="service_btn_history">History</string>
+    <string name="service_btn_profile">Profile</string>
+    <string name="service_btn_logout">Logout</string>
+    <string name="service_section_label">AVAILABLE SERVICES</string>
+    <string name="service_item_arrow">→</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_eyebrow">ADMIN PANEL</string>
+    <string name="admin_title">Command Center</string>
+    <string name="admin_selected_service">Selected service: —</string>
+    <string name="admin_btn_queue">Queue</string>
+    <string name="admin_btn_slots">Slots</string>
+    <string name="admin_btn_scanner">Scanner</string>
+    <string name="admin_btn_reports">REPORTS &amp; EXPORT</string>
+    <string name="admin_btn_logout">LOGOUT</string>
+    <string name="admin_analytics_label">LIVE ANALYTICS</string>
+    <string name="admin_stat_total">TOTAL</string>
+    <string name="admin_stat_waiting">WAITING</string>
+    <string name="admin_stat_completed">COMPLETED</string>
+    <string name="admin_stat_avg_wait">AVG WAIT</string>
+    <string name="admin_stat_default">0</string>
+    <string name="admin_stat_avg_default">0 min</string>
+    <string name="admin_services_label">SERVICES</string>
+
+    <!-- Queue Control -->
+    <string name="queue_eyebrow">LIVE QUEUE</string>
+    <string name="queue_title">Queue Control</string>
+    <string name="queue_now_serving">NOW SERVING</string>
+    <string name="queue_default_token">A-00</string>
+    <string name="queue_state_active">ACTIVE</string>
+    <string name="queue_btn_next">NEXT</string>
+    <string name="queue_btn_skip">SKIP</string>
+    <string name="queue_btn_pause">PAUSE</string>
+    <string name="queue_btn_resume">RESUME</string>
+    <string name="queue_section_pending">WAITING &amp; CALLED</string>
+
+    <!-- Admin Reports -->
+    <string name="reports_eyebrow">ANALYTICS</string>
+    <string name="reports_title">Reports</string>
+    <string name="reports_summary_default">Showing 0 records.</string>
+    <string name="reports_filter_label">FILTER BY DATE</string>
+    <string name="reports_btn_today">Today</string>
+    <string name="reports_btn_ten_days">10 Days</string>
+    <string name="reports_btn_month">Past Month</string>
+    <string name="reports_export_label">EXPORT DATA</string>
+    <string name="reports_btn_csv">Export CSV</string>
+    <string name="reports_btn_pdf">Export PDF</string>
+    <string name="reports_records_label">RECORDS</string>
+
+    <!-- QR Scanner -->
+    <string name="scanner_eyebrow">ADMIN • SCANNER</string>
+    <string name="scanner_title">Scan Token QR</string>
+    <string name="scanner_viewfinder">▣</string>
+    <string name="scanner_description">Scan the user token at the counter to mark attendance complete.</string>
+    <string name="scanner_btn_start">START QR SCAN</string>
+    <string name="scanner_last_scan_label">LAST SCAN</string>
+    <string name="scanner_last_scan_default">None</string>
+
+    <!-- Slot Booking -->
+    <string name="booking_eyebrow">SLOT BOOKING</string>
+    <string name="booking_title">Available Slots</string>
+    <string name="booking_subtitle">Pick the best time window and we will generate your token instantly.</string>
+    <string name="booking_section_label">CHOOSE A SLOT</string>
+    <string name="booking_btn_book">BOOK TOKEN</string>
+
+    <!-- Slot Management -->
+    <string name="slot_mgmt_eyebrow">ADMIN • SLOTS</string>
+    <string name="slot_mgmt_title">Slot Management</string>
+    <string name="slot_mgmt_create_label">CREATE NEW SLOT</string>
+    <string name="slot_mgmt_hint_date">YYYY-MM-DD</string>
+    <string name="slot_mgmt_hint_start">10:00</string>
+    <string name="slot_mgmt_hint_end">11:00</string>
+    <string name="slot_mgmt_hint_capacity">Max attendees</string>
+    <string name="slot_mgmt_label_date">DATE</string>
+    <string name="slot_mgmt_label_start">START TIME</string>
+    <string name="slot_mgmt_label_end">END TIME</string>
+    <string name="slot_mgmt_label_capacity">CAPACITY</string>
+    <string name="slot_mgmt_btn_create">CREATE SLOT</string>
+    <string name="slot_mgmt_existing_label">EXISTING SLOTS</string>
+
+    <!-- My Token -->
+    <string name="token_eyebrow">YOUR TOKEN</string>
+    <string name="token_number_default">A-00</string>
+    <string name="token_label_number">TOKEN NUMBER</string>
+    <string name="token_status_waiting">WAITING</string>
+    <string name="token_status_called">CALLED</string>
+    <string name="token_status_completed">COMPLETED</string>
+    <string name="token_qr_hint">Show this QR at the counter</string>
+    <string name="token_qr_description">Token QR</string>
+    <string name="token_label_current">CURRENT TOKEN</string>
+    <string name="token_label_ahead">PEOPLE AHEAD</string>
+    <string name="token_label_eta">ESTIMATED WAIT</string>
+    <string name="token_eta_default">0 min</string>
+    <string name="token_btn_cancel">CANCEL TOKEN</string>
+    <string name="token_btn_reschedule">RESCHEDULE</string>
+
+    <!-- Token History -->
+    <string name="history_eyebrow">MY VISITS</string>
+    <string name="history_title">Token History</string>
+    <string name="history_subtitle">Previous visits, completed bookings, and cancelled or rescheduled tokens.</string>
+    <string name="history_section_label">PAST TOKENS</string>
+    <string name="history_empty_icon">📋</string>
+    <string name="history_empty_text">No token history yet.</string>
+
+    <!-- User Profile -->
+    <string name="profile_eyebrow">ACCOUNT</string>
+    <string name="profile_title">Profile &amp; Settings</string>
+    <string name="profile_section_personal">PERSONAL INFO</string>
+    <string name="profile_label_name">FULL NAME</string>
+    <string name="profile_hint_name">Your full name</string>
+    <string name="profile_label_phone">PHONE</string>
+    <string name="profile_hint_phone">+91 00000 00000</string>
+    <string name="profile_label_email">EMAIL</string>
+    <string name="profile_label_role">ROLE</string>
+    <string name="profile_section_prefs">PREFERENCES</string>
+    <string name="profile_switch_notifications">Enable push notifications</string>
+    <string name="profile_switch_dark_mode">Dark mode</string>
+    <string name="profile_switch_large_text">Large text mode</string>
+    <string name="profile_btn_save">SAVE PROFILE</string>
+    <string name="profile_btn_sync">SYNC PUSH TOKEN</string>
+    <string name="profile_btn_history">OPEN TOKEN HISTORY</string>
+
+    <!-- Items: Service -->
+    <string name="item_service_default_prefix">A Queue</string>
+    <string name="item_service_default_name">Outpatient Department</string>
+    <string name="item_service_default_meta">Capacity 20 per slot  •  ETA 5 min/person</string>
+
+    <!-- Items: Slot -->
+    <string name="item_slot_default_date">2026-04-26</string>
+    <string name="item_slot_default_time">10:00 — 11:00</string>
+    <string name="item_slot_default_capacity">8 / 20 booked</string>
+    <string name="item_slot_booked_pct">40%</string>
+
+    <!-- Items: Pending Token -->
+    <string name="item_pending_token_default">A-21</string>
+    <string name="item_pending_queue_default">Queue #21</string>
+    <string name="item_pending_status_default">WAITING</string>
+
+    <!-- Items: Token History -->
+    <string name="item_history_token_default">A-21</string>
+    <string name="item_history_status_default">COMPLETED</string>
+    <string name="item_history_service_default">Dentist</string>
+    <string name="item_history_slot_default">2026-04-27  •  10:00 – 11:00</string>
+    <string name="item_history_created_default">27 Apr 2026, 10:45 AM</string>
+
+</resources>

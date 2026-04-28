@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- =========================================== -->
+    <!--   QUEUEFLOW PRO — APP THEME                 -->
+    <!--   Base: Material3 Dark                      -->
+    <!--   Palette: Deep Navy × Teal × Gold          -->
+    <!-- =========================================== -->
+
+    <style name="Theme.QueueFlowPro" parent="Theme.Material3.Dark.NoActionBar">
+
+        <!-- Primary Brand (Teal) -->
+        <item name="colorPrimary">@color/teal_accent</item>
+        <item name="colorPrimaryVariant">@color/teal_dim</item>
+        <item name="colorOnPrimary">@color/navy_deep</item>
+
+        <!-- Secondary Brand (Gold) -->
+        <item name="colorSecondary">@color/gold_primary</item>
+        <item name="colorSecondaryVariant">@color/gold_dim</item>
+        <item name="colorOnSecondary">@color/navy_deep</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/gold_primary</item>
+        <item name="colorOnTertiary">@color/navy_deep</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/navy_deep</item>
+        <item name="colorSurface">@color/navy_surface</item>
+        <item name="colorSurfaceVariant">@color/navy_card</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/status_error</item>
+        <item name="colorOnError">@color/text_primary</item>
+
+        <!-- Outline (border / divider) -->
+        <item name="colorOutline">@color/divider_color</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/navy_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/navy_deep</item>
+
+        <!-- Text Appearance -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <!-- EditText cursor & highlight -->
+        <item name="android:colorControlActivated">@color/teal_accent</item>
+        <item name="android:colorControlHighlight">#1A00C9A7</item>
+
+        <!-- Button defaults -->
+        <item name="materialButtonStyle">@style/Widget.QueueFlowPro.Button</item>
+
+        <!-- Card defaults -->
+        <item name="materialCardViewStyle">@style/Widget.QueueFlowPro.Card</item>
+
+        <!-- Chip defaults -->
+        <item name="chipStyle">@style/Widget.QueueFlowPro.Chip</item>
+
+        <!-- EditText / TextInputLayout -->
+        <item name="textInputStyle">@style/Widget.QueueFlowPro.TextInput</item>
+
+        <!-- Progress Bar tint -->
+        <item name="android:progressTint">@color/teal_accent</item>
+        <item name="android:indeterminateTint">@color/gold_primary</item>
+
+        <!-- Ripple -->
+        <item name="rippleColor">#1A00C9A7</item>
+
+        <!-- RadioButton tint -->
+        <item name="android:colorControlNormal">@color/teal_accent</item>
+
+        <!-- Switch -->
+        <item name="switchStyle">@style/Widget.QueueFlowPro.Switch</item>
+
+        <!-- Font (set globally if using a custom font) -->
+        <!-- <item name="android:fontFamily">@font/your_font</item> -->
+
+    </style>
+
+    <!-- ============ COMPONENT STYLES ============ -->
+
+    <!-- Primary Button -->
+    <style name="Widget.QueueFlowPro.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/navy_deep</item>
+        <item name="backgroundTint">@color/gold_primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <!-- Outlined / Ghost Button -->
+    <style name="Widget.QueueFlowPro.Button.Outline" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/gold_primary</item>
+        <item name="strokeColor">@color/gold_primary</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- Danger Outlined Button -->
+    <style name="Widget.QueueFlowPro.Button.Danger" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/status_error</item>
+        <item name="strokeColor">@color/status_error</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Teal Filled Button -->
+    <style name="Widget.QueueFlowPro.Button.Teal" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/navy_deep</item>
+        <item name="backgroundTint">@color/teal_accent</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Card -->
+    <style name="Widget.QueueFlowPro.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- TextInputLayout -->
+    <style name="Widget.QueueFlowPro.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">#0D1B2A</item>
+        <item name="boxStrokeColor">@color/input_border</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Chip -->
+    <style name="Widget.QueueFlowPro.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="android:textColor">@color/teal_accent</item>
+        <item name="chipBackgroundColor">#1A00C9A7</item>
+        <item name="chipStrokeColor">@color/teal_accent</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Switch -->
+    <style name="Widget.QueueFlowPro.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="android:thumbTint">@color/gold_primary</item>
+        <item name="trackTint">@color/switch_track_selector</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- ============ SPLASH / FULL-SCREEN THEME ============ -->
+    <style name="Theme.QueueFlowPro.Splash" parent="Theme.QueueFlowPro">
+        <item name="android:windowBackground">@color/navy_deep</item>
+        <item name="android:statusBarColor">@color/navy_deep</item>
+        <item name="android:navigationBarColor">@color/navy_deep</item>
+    </style>
+
+</resources>
