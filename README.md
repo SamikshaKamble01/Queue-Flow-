@@ -1,10 +1,10 @@
-# 🚀 QueueFlow – Real-Time Queue Management System
+# 🚀  QueueFlow – Real-Time Queue Management System
 
 QueueFlow is an Android-based application designed to simplify and digitize queue management. It allows users to book tokens remotely, track real-time queue status, and reduce physical waiting time.
 
 ---
 
-## 📌 Features
+## 📌 Features 
 
 * 📱 Easy token booking via mobile
 * ⏱️ Real-time queue tracking
@@ -15,7 +15,7 @@ QueueFlow is an Android-based application designed to simplify and digitize queu
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 * **Frontend:** XML (Android UI)
 * **Backend:** Firebase
@@ -25,7 +25,7 @@ QueueFlow is an Android-based application designed to simplify and digitize queu
 ---
 
 ## 🎯 Objective
-
+ 
 To eliminate long waiting lines and improve service efficiency by providing a smart, digital queue management solution.
 
 ---
@@ -39,7 +39,7 @@ To eliminate long waiting lines and improve service efficiency by providing a sm
 
 ---
 
-
+ 
 
 ## ⚙️ Installation & Setup
 
