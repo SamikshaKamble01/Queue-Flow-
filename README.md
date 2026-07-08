@@ -2,8 +2,6 @@
 
 QueueFlow is an Android-based application designed to simplify and digitize queue management. It allows users to book tokens remotely, track real-time queue status, and reduce physical waiting time.
 
----
-
 ## 📌 Features 
 
 * 📱 Easy token booking via mobile
