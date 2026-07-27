@@ -14,7 +14,6 @@ QueueFlow is an Android-based application designed to simplify and digitize queu
 ---
 
 ## 🛠️ Tech Stack 
-
 * **Frontend:** XML (Android UI)
 * **Backend:** Firebase
 * **Language:** Java
@@ -37,7 +36,7 @@ To eliminate long waiting lines and improve service efficiency by providing a sm
 
 ---
 
- 
+
 
 ## ⚙️ Installation & Setup
 
